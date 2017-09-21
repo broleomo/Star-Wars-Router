@@ -12,7 +12,7 @@ class Explorer extends Component {
             <div className="caption">
               <h3>Characters</h3>
               <p>Explore Characters</p>
-              <button><Link to="/characters/">Lets go!</Link></button>
+              <Link to="/characters"><button>Lets go!</button></Link>
             </div>
           </div>
 
@@ -23,7 +23,7 @@ class Explorer extends Component {
             <div className="caption">
               <h3>Starships</h3>
               <p>Explore Starships</p>
-              <Link to="/starships/">
+              <Link to="/starships">
                 <button className="btn btn-primary" >Lets go!</button>
               </Link>
             </div>
@@ -36,7 +36,7 @@ class Explorer extends Component {
             <div className="caption">
               <h3>Films</h3>
               <p>Explore Films</p>
-              <Link to="/films/">
+              <Link to="/films">
                 <button className="btn btn-primary" >Lets go!</button>
               </Link>
             </div>

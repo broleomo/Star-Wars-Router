@@ -21,7 +21,7 @@ export default class BaseLayout extends Component {
             <div className="navbar-header">
               <ul className="nav navbar-nav">
               <li>
-              <NavLink activeClassName="selected" className="nav-link" to= "/">SWAPI Explorer</NavLink>
+              <NavLink activeClassName="selected" className="nav-link" exact to= "/">SWAPI Explorer</NavLink>
               </li>
                 <li>
                 <NavLink activeClassName="selected" className="nav-link" to= "/characters">Characters</NavLink>
